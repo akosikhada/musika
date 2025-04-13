@@ -1,100 +1,142 @@
-# 🎶 Musika: Music Player Web Application
-
-Musika is a sophisticated music player web application developed with a robust tech stack, including React, TypeScript, Tailwind CSS, Shadcn, and Zustand for the frontend, and Node.js, Express.js, MongoDB, Socket.IO, and JavaScript for the backend. Key features include seamless music playback with next/previous song controls, volume adjustment, and an intuitive admin dashboard for managing albums and songs. Leveraging Socket.IO, Musika enables real-time features such as online/offline status, user activity tracking, and a live chat integrated within the application. Utilizing Clerk for secure authentication, Musika ensures a seamless and secure user experience while providing a rich and engaging music listening experience.
+# Musika 🎵
 
 <div align="center">
-  <img src="./frontend/public/musika-logo.png" alt="Musika Logo" width="300" height="300">
+  <img src="./frontend/public/musika-logo.png" alt="Musika Logo" width="200">
+  <h3>A Modern Music Player Web Application</h3>
+  
+  [![License: MIT](https://img.shields.io/badge/License-MIT-blue.svg)](https://opensource.org/licenses/MIT)
+  ![React](https://img.shields.io/badge/React-18-61DAFB?logo=react&logoColor=white)
+  ![TypeScript](https://img.shields.io/badge/TypeScript-5-3178C6?logo=typescript&logoColor=white)
+  ![MongoDB](https://img.shields.io/badge/MongoDB-6-47A248?logo=mongodb&logoColor=white)
 </div>
 
-## 🛠️ Tools & Technologies
+## 📋 Overview
 
-### **Frontend**
-
-<div align="left">
-  <img src="./frontend/public/icons/html.png" alt="HTML" width="30" title="HTML5">
-  <img src="./frontend/public/icons/css.png" alt="CSS" width="30" title="CSS3">
-  <img src="./frontend/public/icons/tailwind.png" alt="Tailwind CSS" width="30" title="Tailwind CSS">
-  <img src="./frontend/public/icons/react.png" alt="React" width="30" title="React">
-  <img src="./frontend/public/icons/ts.png" alt="TypeScript" width="30" title="TypeScript">
-  <img src="./frontend/public/icons/zustand.png" alt="Zustand" width="30" title="Zustand">
-  <img src="./frontend/public/icons/shadcn.png" alt="shadcn" width="30" title="shadcn/ui">
-</div>
-
-### **Backend**
-
-<div align="left">
-  <img src="./frontend/public/icons/js.png" alt="JavaScript" width="30" title="JavaScript">
-  <img src="./frontend/public/icons/node.png" alt="Node.js" width="30" title="Node.js">
-  <img src="./frontend/public/icons/express.png" alt="Express.js" width="30" title="Express.js">
-  <img src="./frontend/public/icons/mongodb.png" alt="MongoDB" width="30" title="MongoDB">
-  <img src="./frontend/public/icons/socket.png" alt="Socket IO" width="30" title="Socket.IO">
-  <img src="./frontend/public/icons/clerk.png" alt="Clerk" width="30" title="Clerk">
-</div>
-
-### **Development Tools**
-
-<div align="left">
-  <img src="./frontend/public/icons/git.png" alt="Git" width="30" title="Git">
-  <img src="./frontend/public/icons/github.png" alt="Github" width="30" title="GitHub">
-  <img src="./frontend/public/icons/npm.png" alt="NPM" width="30" title="npm">
-  <img src="./frontend/public/icons/vite.png" alt="Vite" width="30" title="Vite">
-  <img src="./frontend/public/icons/vscode.png" alt="Visual Studio Code" width="30" title="Visual Studio Code">
-</div>
+Musika is a feature-rich music player web application built with modern technologies. It provides an immersive music listening experience with real-time social features through Socket.IO, secure authentication via Clerk, and an intuitive user interface designed with Tailwind CSS and Shadcn components.
 
 ## ✨ Key Features
 
-### Music Playback
+<div align="center">
+  <table>
+    <tr>
+      <td align="center" width="33%">
+        <h3>🎵 Music Playback</h3>
+        <p>Seamless playback with intuitive controls for next/previous tracks and volume adjustment</p>
+      </td>
+      <td align="center" width="33%">
+        <h3>💬 Real-Time Chat</h3>
+        <p>Engage with other users through an integrated live chat system</p>
+      </td>
+      <td align="center" width="33%">
+        <h3>👤 User Presence</h3>
+        <p>See who's online and what they're listening to in real-time</p>
+      </td>
+    </tr>
+    <tr>
+      <td align="center" width="33%">
+        <h3>🛠️ Admin Dashboard</h3>
+        <p>Manage albums and songs through an intuitive admin interface</p>
+      </td>
+      <td align="center" width="33%">
+        <h3>📊 Analytics</h3>
+        <p>Track user activity and music listening trends</p>
+      </td>
+      <td align="center" width="33%">
+        <h3>🔒 Secure Authentication</h3>
+        <p>Powered by Clerk for safe and seamless user authentication</p>
+      </td>
+    </tr>
+  </table>
+</div>
 
-- 🎵 Seamless music playback with controls for next and previous tracks.
-- 🔊 Effortless volume adjustment using a convenient slider.
+## 🚀 Tech Stack
 
-### Content Management
+### Frontend
 
-- 🎤 Admin dashboard for streamlined creation and management of albums and songs.
+<div>
+  <img src="./frontend/public/icons/react.png" alt="React" width="30" title="React" style="margin-right:10px;"/>
+  <img src="./frontend/public/icons/ts.png" alt="TypeScript" width="30" title="TypeScript" style="margin-right:10px;"/>
+  <img src="./frontend/public/icons/tailwind.png" alt="Tailwind CSS" width="30" title="Tailwind CSS" style="margin-right:10px;"/>
+  <img src="./frontend/public/icons/shadcn.png" alt="shadcn/ui" width="30" title="shadcn/ui" style="margin-right:10px;"/>
+  <img src="./frontend/public/icons/zustand.png" alt="Zustand" width="30" title="Zustand" style="margin-right:10px;"/>
+</div>
 
-### Integrated Chat
+### Backend
 
-- 💬 Engage with other users through a real-time chat app seamlessly integrated within Musika.
+<div>
+  <img src="./frontend/public/icons/node.png" alt="Node.js" width="30" title="Node.js" style="margin-right:10px;"/>
+  <img src="./frontend/public/icons/express.png" alt="Express.js" width="30" title="Express.js" style="margin-right:10px;"/>
+  <img src="./frontend/public/icons/mongodb.png" alt="MongoDB" width="30" title="MongoDB" style="margin-right:10px;"/>
+  <img src="./frontend/public/icons/socket.png" alt="Socket IO" width="30" title="Socket.IO" style="margin-right:10px;"/>
+  <img src="./frontend/public/icons/clerk.png" alt="Clerk" width="30" title="Clerk" style="margin-right:10px;"/>
+</div>
 
-### User Presence
+## 🛠️ Installation & Setup
 
-- 🟢 Track online/offline status of other users for a more connected experience.
+```bash
+# Clone the repository
+git clone https://github.com/akosikhada/musika.git
+cd musika
 
-### Social Listening
+# Frontend setup
+cd frontend
+npm install
+cp .env.example .env.local  # Configure your environment variables
+npm run dev
 
-- 🎧 Discover what music other users are currently enjoying in real-time.
+# Backend setup (in a new terminal)
+cd backend
+npm install
+cp .env.example .env  # Configure your environment variables
+npm run dev
+```
 
-### Data-Driven Insights
+## 📝 Environment Setup
 
-- 📊 Access valuable aggregated data for in-depth analysis on the analytics page.
+### Frontend (.env.local)
 
-## 🖌️ Designs and Layouts
+```
+VITE_API_URL=http://localhost:5000
+VITE_CLERK_PUBLISHABLE_KEY=your_clerk_publishable_key
+```
 
-Here are some reference designs and layouts:
+### Backend (.env)
 
-[![Music Stream](https://img.shields.io/badge/Music%20Stream-Figma-black)](<https://www.figma.com/design/SnYTU984TpKqGJ9EBJf0Vn/Music-Stream---Soundcloud-Web-Design-(Community)?node-id=2-2&p=f>)
-[![Spotify Music](https://img.shields.io/badge/Spotify%20Music-Figma-black)](<https://www.figma.com/design/Zt34g8NAqDUtKMvawHum0C/Spotify-Music-UI-Design-%26-Prototype-(Community)?node-id=101-4&p=f>)
-[![Music Webapp](https://img.shields.io/badge/Music%20Webapp-Figma-black)](<https://www.figma.com/design/QehoEPtQ1LCtT6NBO2ZiFu/Music-Webapp-Landing-Page-(Community)?node-id=0-1&p=f>)
-[![Auditica](https://img.shields.io/badge/Auditica-Figma-black)](https://www.figma.com/design/SsgtFJgR2yOcTPmseqi2oG/Auditica?node-id=1-274)
+```
+PORT=5000
+MONGODB_URI=your_mongodb_connection_string
+CLERK_SECRET_KEY=your_clerk_secret_key
+```
+
+## 🎨 UI Design
+
+Musika's interface is inspired by modern music streaming platforms, with a focus on usability and aesthetics.
+
+Design references:
+
+- [Music Stream](<https://www.figma.com/design/SnYTU984TpKqGJ9EBJf0Vn/Music-Stream---Soundcloud-Web-Design-(Community)?node-id=2-2&p=f>)
+- [Spotify Music](<https://www.figma.com/design/Zt34g8NAqDUtKMvawHum0C/Spotify-Music-UI-Design-%26-Prototype-(Community)?node-id=101-4&p=f>)
+- [Auditica](https://www.figma.com/design/SsgtFJgR2yOcTPmseqi2oG/Auditica?node-id=1-274)
+
+## 📈 Architecture
+
+Musika follows a client-server architecture:
+
+- **Frontend**: React application with TypeScript for type safety
+- **Backend**: Node.js server with Express.js for API endpoints
+- **Database**: MongoDB for storing user data, songs, and albums
+- **Real-time Communication**: Socket.IO for chat and presence features
+
+## 📄 License
+
+This project is licensed under the MIT License - see the LICENSE file for details.
 
 ## 🙏 Acknowledgements
 
-We would like to express our gratitude to the developers and contributors of the following tools and libraries that made Musika possible:
+Special thanks to the developers and contributors of all the tools and libraries that made Musika possible.
 
-<div align="left">
-  <img src="https://img.shields.io/badge/React-black?logo=react" alt="React" height="30">
-  <img src="https://img.shields.io/badge/TypeScript-black?logo=typescript" alt="TypeScript" height="30">
-  <img src="https://img.shields.io/badge/Tailwind%20CSS-black?logo=tailwindcss" alt="Tailwind CSS" height="30">
-  <img src="https://img.shields.io/badge/shadcn-black?logo=shadcn" alt="shadcn"  height="30">
-  <img src="https://img.shields.io/badge/Zustand-black?logo=zustand" alt="Zustand"  height="30">
-  <img src="https://img.shields.io/badge/Node.js-black?logo=nodedotjs" alt="Node.js"  height="30">
-  <img src="https://img.shields.io/badge/Express-black?logo=express" alt="Express.js"  height="30">
-  <img src="https://img.shields.io/badge/MongoDB-black?logo=mongodb" alt="MongoDB"  height="30">
-  <img src="https://img.shields.io/badge/Socket.IO-black?logo=socketdotio" alt="Socket.IO"  height="30">
-  <img src="https://img.shields.io/badge/Clerk-black?logo=clerk" alt="Clerk"  height="30">
-  <img src="https://img.shields.io/badge/Git-black?logo=git" alt="Git" height="30">
-  <img src="https://img.shields.io/badge/GitHub-black?logo=github" alt="GitHub" height="30">
-  <img src="https://img.shields.io/badge/npm-black?logo=npm" alt="npm" height="30">
-  <img src="https://img.shields.io/badge/Vite-black?logo=vite" alt="Vite" height="30">
-  <img src="https://img.shields.io/badge/VS%20Code-black?logo=visualstudiocode" alt="Visual Studio Code" height="30">
+---
+
+<div align="center">
+  <sub>Built with ❤️ by akosikhada</sub>
 </div>
